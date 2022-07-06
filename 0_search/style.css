@@ -1,0 +1,165 @@
+/* Resets */
+* {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Flexbox Styling */
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Header Styling */
+header {
+  padding: 12.5px 25px;
+}
+
+#header-container a,
+#footer-container a {
+  margin: 0px 8px;
+  color: #000;
+  text-decoration: none;
+}
+
+#header-container a:hover,
+#footer-container a:hover {
+  text-decoration: underline;
+}
+
+/* Advanced Search Header Styling */
+#advanced-header {
+  border-bottom: solid 1px #c7c7c7;
+}
+
+#header-left {
+  margin-right: auto;
+}
+
+#header-left span {
+  font-size: 30px;
+}
+
+/* Main Styling */
+
+#google-logo {
+  width: 400px;
+  height: auto;
+}
+
+#searchbox {
+  width: 500px;
+  height: 40px;
+  margin: 30px;
+  padding: 0px 15px;
+  border: solid 1px #c7c7c7;
+  border-radius: 20px;
+}
+
+#search-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#search-button-container input {
+  width: 150px;
+  height: 40px;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#advanced-submit {
+  background-color: #8fbeff;
+}
+
+/* Footer Styling */
+footer {
+  border-top: solid 1px #c7c7c7;
+  padding: 12.5px 25px;
+}
+
+#left-footer,
+#right-footer {
+  min-width: 25%;
+}
+
+#right-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.advanced-footer #footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* Advanced Search Form Styling */
+#upper-form-container,
+#lower-form-container {
+  margin: 50px 50px;
+}
+
+#lower-form-container {
+  margin-top: 50px;
+  border-top: solid 1px #c7c7c7;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+#input-container label {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#input-container input,
+#input-container select {
+  min-width: 40vw;
+  max-width: 40vw;
+  height: 25px;
+  margin: 0px 10px;
+}
+
+#input-container #hidden-input {
+  visibility: hidden;
+}
+
+#input-container #title-label {
+  font-size: 20px;
+}
+
+#input-container #title-text {
+  font-weight: bold;
+}

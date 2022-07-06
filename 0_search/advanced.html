@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <header id="advanced-header">
+      <div id="header-container">
+        <div id="header-left">
+          <span>Advanced Search</span>
+        </div>
+        <div id="header-right">
+          <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+          <a href="index.html">Search</a>
+          <a href="images.html">Images</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <div id="main-container">
+
+        <form id="advanced-form" action="https://www.google.com/search" method="get" autocomplete="off">
+
+          <div id="upper-form-container">
+
+            <div id="input-container">
+              <label id="title-label" for="find-pages">Find pages with...</label>
+              <input id="hidden-input" type="text">
+              <div>
+                <span id="title-text">To do in this search box.</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="all-words">all these words:</label>
+              <input id="all-words" type="text" name="as_q">
+              <div>
+                <span>Type the important words:</span>
+                <span>tri-colour rat terrier</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="this-word">this exact word or phrase:</label>
+              <input id="this-word" type="text" name="as_epq">
+              <div>
+                <span>Put exact words in quotes: </span>
+                <span>"rat terrier"</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="any-word">any of these words:</label>
+              <input id="any-word" type="text" name="as_oq">
+              <div>
+                <span>Type <span>OR</span> between all the words you want: </span>
+                <span>miniature OR standard</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="none-word">none of these words:</label>
+              <input id="none-word" type="text" name="as_eq">
+              <div>
+                <span>Put a minus sign just before words that you don't want: </span>
+                <span>-rodent, -"Jack Russell"</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="numbers-from">numbers ranging from:</label>
+              <input id="numbers-from" type="text" name="as_nlo">
+              <div>
+                <span>Put two full stops between the numbers and add a unit of measurement: </span>
+                <span>10..35 kg, £300..£500, 2010..2011</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="lower-form-container">
+
+            <div id="input-container">
+              <label id="title-label" for="find-pages">Then narrow your results by...</label>
+              <input id="hidden-input" type="text">
+            </div>
+
+            <div id="input-container">
+              <label for="language">language:</label>
+              <select id="language" name="lr">
+                <option value="">any language</option>
+                <option value="lang_af">Afrikaans</option>
+                <option value="lang_ar">Arabic</option>
+              </select>
+              <div>
+                <span>Find pages in the language that you select.</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="region">region:</label>
+              <select id="region" name="cr">
+                <option value="">any region</option>
+                <option value="countryAF">Afganistan</option>
+                <option value="countryAL">Albania</option>
+              </select>
+              <div>
+                <span>Find pages published in a particular region.</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="last-update">last update:</label>
+              <select id="last-update" name="as_qdr">
+                <option value="">anytime</option>
+                <option value="d">last 24 hours</option>
+                <option value="w">last week</option>
+              </select>
+              <div>
+                <span>Find pages updated within the time that you specify.</span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="site-or-domain">site or domain:</label>
+              <input id="site-or-domain" type="text" name="as_sitesearch">
+              <div>
+                <span>Search one site (like <span class="advanced-typewrite">wikipedia.org</span>) or limit your results to a domain like <span class="advanced-typewrite">.edu</span>, <span class="advanced-typewrite">.org</span> or <span class="advanced-typewrite">.gov</span></span>
+              </div>
+            </div>
+
+            <div id="input-container">
+              <label for="terms-appearing">terms appearing:</label>
+              <select id="terms-appearing" name="as_occt">
+                <option value="any">anywhere in the page</option>
+                <option value="title">in the title of the page</option>
+                <option value="body">in the text of the page</option>
+              </select>
+              <div>
+                <span>Search for terms in the whole page, page title or web address, or links to the page you're looking for.</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="search-button-container">
+            <input id="advanced-submit" type="submit" value="Advanced Search">
+          </div>
+        </form>
+
+      </div>
+    </main>
+
+    <footer class="advanced-footer">
+      <div id="footer-container">
+        <a href="https://support.google.com/websearch/?visit_id=637925364629073604-1511847776&hl=en-IE&rd=2#topic=3378866">Help</a>
+        <a href="https://policies.google.com/privacy?hl=en-IE&fg=1">Privacy</a>
+        <a href="https://policies.google.com/terms?hl=en-IE&fg=1">Terms</a>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
